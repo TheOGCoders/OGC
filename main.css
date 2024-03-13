@@ -1,11 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800;900&display=swap');
-
+* {
+  user-select: none;
+  -ms-user-select: none;
+  -webkit-user-select: none;
+  -webkit-user-modify: none;
+  -webkit-user-drag: none;
+}
 body {
-    background-color: #1b1b1b;
+    background-color: #f8f1f1;
     font-family: 'Montserrat', sans-serif;
+    color: #0000000;
 }
 
-nav {
+/* nav {
     position: fixed;
     top: 0;
     left: 0;
@@ -20,7 +27,7 @@ nav {
     z-index: 5;
     margin: auto;
 }
-
+*/
 nav img {
     height: 80%;
     width: auto;
