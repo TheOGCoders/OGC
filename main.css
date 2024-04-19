@@ -11,7 +11,18 @@ body {
     font-family: 'Montserrat', sans-serif;
     color: #0000000;
 }
+#ogsearch {
+  outline: none;
+  justify-content: end;
+  box-shadow: none;
+  width: 100%;
+  
+}
+#oglogo::hover {
+  color: #40bf5900;
+  filter: invert(48%) sepia(13%) saturate(3207%) hue-rotate(130deg) brightness(95%) contrast(80%);
 
+}
 /* nav {
     position: fixed;
     top: 0;
