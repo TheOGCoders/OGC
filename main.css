@@ -6,6 +6,7 @@
   -webkit-user-modify: none;
   -webkit-user-drag: none;
 }
+
 body {
     background-color: #f8f1f1;
     font-family: 'Montserrat', sans-serif;
@@ -18,6 +19,45 @@ body {
   width: 100%;
   
 }
+.ogcoders_gameTabs{
+    color: #0f0f0f;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-radius: 0px;
+  }
+@media only screen and (min-width: 1366px) {
+    .ogcoders_gameTabs .item { 
+      cursor: pointer;
+      background: #ffffff;
+      height: 76%;
+      margin: auto;
+      margin-top: auto;
+      margin-bottom: auto;
+      padding: 50px 50px;
+      border-radius: 13px;
+      -webkit-box-shadow: 0px 17px 37px -12px rgba(0,0,0,0.75);
+      -moz-box-shadow: 0px 17px 37px -12px rgba(0,0,0,0.75);
+      box-shadow: 0px 17px 37px -12px rgba(0,0,0,0.75);
+    }
+    .ogcoders_gameTabs .item #ogcoders_h4 {
+      font-size: 25px;
+      margin-bottom: 60px;
+      display: inline-block;
+      align-self: center;
+      vertical-align: text-top;
+      padding-left: 10px;
+      text-align: center;
+      justify-content: baseline;
+    
+    }
+  }
+  .ogcoders_gameTabs .item:hover{
+    background-color: #444;
+    height: 76%;
+    transform: skew(3deg, -2deg);
+    transition: 0.1s ease!important; 
+  
+    color: #fff;
+  }     
 #oglogo::hover {
   color: #40bf5900;
   filter: invert(48%) sepia(13%) saturate(3207%) hue-rotate(130deg) brightness(95%) contrast(80%);
